@@ -1,0 +1,34 @@
+---
+title: "PCAE Tutorial"
+author: "Raffaele A Calogero"
+date: "8/17/2020"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Your Vignette Title}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+This vignette provides support to use Partially Connected Autoencoders (PCAE) in the analysis of single cell RNAseq data (scRNAseq).
+PCAE analysis was added as extention of [*rCASC*](https://pubmed.ncbi.nlm.nih.gov/31494672/).
+
+
+## Installation
+
+An extensive description of how rCASC works is provided at [*rCASC* vignette](https://kendomaniac.github.io/rCASC/articles/rCASC_vignette.html). Installation of rCASC including the PCAE modules requires:
+
+- A workstation/server running 64 bits Linux.
+
+- Docker daemon installed on the machine, for more info see this document:
+
+    [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
+
+- The functions in rCASC package require that user belongs to a group with the rights to execute docker. See the following document for more info: 
+
+    [https://docs.docker.com/engine/install/linux-postinstall/](https://docs.docker.com/engine/install/linux-postinstall/)
+
+
+
+
